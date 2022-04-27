@@ -6,8 +6,6 @@ import { ThemeProvider, CssBaseline } from "@mui/material";
 import { Routes } from "./Routes";
 import { theme } from "./styles/theme";
 
-import "./i18n";
-
 export default function App() {
   return (
     <ThemeProvider theme={theme}>
